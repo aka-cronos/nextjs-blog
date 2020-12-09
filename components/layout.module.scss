@@ -1,0 +1,25 @@
+.layout {
+  padding-right: calc(50vw - var(--max-width) / 2);
+  padding-left: calc(50vw - var(--max-width) / 2);
+  background-color: var(--color-lightGray);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerImage {
+  width: 6rem;
+  height: 6rem;
+}
+
+.headerHomeImage {
+  width: 8rem;
+  height: 8rem;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+}
